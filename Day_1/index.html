@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Example</title>
+</head>
+
+<body>
+    <header>
+        <h1>Main Header</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Section Heading</h2>
+            <p>This is a paragraph of text.</p>
+            <p>This is another paragraph with <strong>bold</strong>, <em>italic</em>, and <a href="#">a link</a>.</p>
+            <blockquote>
+                This is a blockquote.
+            </blockquote>
+            <pre>
+                This is preformatted text.
+            </pre>
+            
+            
+            
+            <hr>
+
+
+            <h3>Lists</h3>
+            <ul>
+                <li>Unordered list item 1</li>
+                <li>Unordered list item 2</li>
+                <li>Unordered list item 3</li>
+            </ul>
+            <ol>
+                <li>Ordered list item 1</li>
+                <li>Ordered list item 2</li>
+                <li>Ordered list item 3</li>
+            </ol>
+            <dl>
+                <dt>Definition term 1</dt>
+                <dd>Definition description 1</dd>
+                <dt>Definition term 2</dt>
+                <dd>Definition description 2</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h3>Tables</h3>
+            <table border="1">
+                <caption>Table Caption</caption>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                        <th>Header 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                    </tr>
+                    <tr>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Footer 1</td>
+                        <td>Footer 2</td>
+                        <td>Footer 3</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h3>Forms</h3>
+            <form>
+                <label for="text">Text input:</label>
+                <input type="text" id="text" name="text"><br><br>
+                <label for="password">Password input:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <label for="textarea">Textarea:</label>
+                <textarea id="textarea" name="textarea"></textarea><br><br>
+                <label for="select">Select:</label>
+                <select id="select" name="select">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                </select><br><br>
+                <fieldset>
+                    <legend>Checkboxes:</legend>
+                    <input type="checkbox" id="checkbox1" name="checkbox1" value="value1">
+                    <label for="checkbox1">Checkbox 1</label><br>
+                    <input type="checkbox" id="checkbox2" name="checkbox2" value="value2">
+                    <label for="checkbox2">Checkbox 2</label><br>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Radio buttons:</legend>
+                    <input type="radio" id="radio1" name="radio" value="value1">
+                    <label for="radio1">Radio 1</label><br>
+                    <input type="radio" id="radio2" name="radio" value="value2">
+                    <label for="radio2">Radio 2</label><br>
+                </fieldset><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section>
+            <h3>Media</h3>
+            <img src="https://via.placeholder.com/150" alt="Placeholder image">
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Placeholder image">
+                <figcaption>Figure caption</figcaption>
+            </figure>
+            <video controls>
+                <source src="movie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+
+        <section>
+            <h3>Embedded Content</h3>
+            <iframe src="https://www.example.com" title="Example iframe"></iframe>
+            <iframe src="https://gamma.app/embed/1wb4sjvvxtkd1p0" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Introduction to HTML"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>Footer content here.</p>
+    </footer>
+</body>
+
+</html>
